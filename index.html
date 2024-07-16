@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHALLENGE I - DECODIFICADOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="assets/Logo.png" alt="Logo">
+    </header>
+    <main class="main-content">
+        <div class="input-container">
+            <div class="text-wrapper" contenteditable="true" id="inputText">Digite seu texto</div>
+        </div>
+        <div class="box">
+            <div class="rectangle">
+                <img class="diamond" src="assets/High quality products 1 1.png" alt="High quality">
+                <div id="mensagem">Nenhuma mensagem encontrada</div>
+                <p class="text-wrapper-msg">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <button class="button" onclick="copiarMensagem()">
+                    <p id="msgCopiar">Copiar</p>
+                </button>
+            </div>
+        </div>
+        <div class="button-group">
+            <button class="button-cripto" onclick="criptografar()">
+                <p>Criptografar</p>
+            </button>
+            <button class="button-descrip" onclick="descriptografar()">
+                <p>Descriptografar</p>
+            </button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer-text">Desenvolvido por Renato</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
